@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "nodemon -e js,html,scss app.js",
-    "build-css": "node-sass -w -r assets/stylesheets -o public/stylesheets",
+    "build-css": "./node_modules/.bin/node-sass -r assets/stylesheets -o public/stylesheets",
     "seed": "node seed.js"
   },
   "dependencies": {

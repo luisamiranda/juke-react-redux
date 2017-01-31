@@ -15,6 +15,7 @@ router.get('/', function (req, res, next) {
     const hotels = allThings[0];
     const restaurants = allThings[1];
     const activities = allThings[2];
+
     res.render('index', {
       hotels: hotels,
       restaurants: restaurants,

@@ -1,2 +1,18 @@
-body h1 {
-  background-color: yellow; }
+body {
+  background-color: #222;
+  color: #eee; }
+
+h1 {
+  font-family: Arial sans-serif;
+  font-size: 36;
+  padding: 20px 0; }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: Arial sans-serif;
+  font-size: 14;
+  color: #222;
+  padding: 7;
+  background-color: #ccc; }
