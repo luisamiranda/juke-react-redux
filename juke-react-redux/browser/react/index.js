@@ -22,7 +22,7 @@ import store from './store';
 import {receiveAlbums, getAlbumById} from './action-creators/albums';
 import {receiveArtists, getArtistById} from './action-creators/artists';
 import {receivePlaylists, getPlaylistById, loadAllSongs} from './action-creators/playlists';
-import StationContainer from './containers/StationContainer';
+
 
 const onAppEnter = function () {
 
@@ -53,7 +53,7 @@ const onPlaylistEnter = function (nextRouterState) {
   store.dispatch(getPlaylistById(playlistId));
 };
 
-const onStationsEnter = function (nextRouterState) { 
+const onStationsEnter = function (nextRouterState) {
   store.dispatch(loadAllSongs());
 };
 
