@@ -5,6 +5,7 @@ export default function (props) {
 
   const albums = props.albums;
 
+  // console.log(props);
   return (
     <div>
       <h3>Albums</h3>
